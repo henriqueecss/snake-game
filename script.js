@@ -246,9 +246,9 @@ function desenharCobra() {
   cobra.forEach(function(segmento, indice) {
     // Cabeça tem cor diferente dos outros segmentos
     if (indice === 0) {
-      ctx.fillStyle = '#4ecca3'; // verde-água para a cabeça
+      ctx.fillStyle = '#c084fc'; // roxo claro para a cabeça
     } else {
-      ctx.fillStyle = '#2ea87e'; // verde mais escuro para o corpo
+      ctx.fillStyle = '#7c3aed'; // roxo escuro para o corpo
     }
 
     // Desenha o retângulo do segmento (com 1px de margem para criar efeito de grid)
@@ -263,7 +263,7 @@ function desenharCobra() {
 
 // Desenha a fruta
 function desenharFruta() {
-  ctx.fillStyle = '#e94560'; // vermelho
+  ctx.fillStyle = '#fb923c'; // laranja
   ctx.fillRect(
     fruta.x * TAMANHO_CELULA + 1,
     fruta.y * TAMANHO_CELULA + 1,
